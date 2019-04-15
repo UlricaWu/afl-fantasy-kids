@@ -6,6 +6,7 @@ import LoginRegister from './LoginRegister/LoginRegister';
 import TeamCreation from './TeamCreation/TeamCreation';
 import TeamInformation from './TeamInformation/TeamInformation';
 import TeamInterest from './TeamInterest/TeamInterest';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route exact path='/team-creation' component={TeamCreation} />
       <Route exact path='/team-information' component={TeamInformation} />
       <Route exact path='/team-interest' component={TeamInterest} />
+      <Footer />
     </Router>
   );
 

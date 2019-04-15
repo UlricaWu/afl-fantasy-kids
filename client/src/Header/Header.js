@@ -1,22 +1,33 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import variables from '../Assets/variables';
 import aflLogo from '../Assets/Images/aflLogo.svg';
 
 const Container = styled.div`
   display: flex;
-  height: 50px;
+  height: 75px;
+  background-color: ${variables.lightNavy}
+  padding: 10px 15px;
 `
 
 const LogoContainer = styled.div`
   width: 100px;
-
+  display: flex;
+  align-items: center;
+  
   > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > img {
+      width: 100%;
+    }
 
   }
 `;
 
-const LogoConstrainer = styled.div``;
 
 const ContentContainer = styled.div`
   flex-grow: 1;
@@ -36,11 +47,11 @@ const NavLink = styled.div`
   cursor: pointer;
   > a { 
     font-size: 30px;
-    text-decoration: none;
-    text-color: black;
+    color: white;
     transition: color .2s;
+    font-family: ${variables.headerFont}
     :hover {
-      color: white;
+      color: ${variables.aflRed}
     }
    }
 `;

@@ -1,6 +1,8 @@
 export default {
-    aflRed: '#e52637',
-    aflBlue: '#005ca1',
-    primaryFont: '',
-    secondaryFont: '',
+    aflRed: '#e52637;',
+    aflBlue: '#005ca1;',
+    headerFont: `'Anton', sans-serif;`,
+    secondaryFont: `'Dosis', sans-serif;`,
+    lightNavy: `#01285e;`,
+    grayDark: `#dee3e9;`
 }
