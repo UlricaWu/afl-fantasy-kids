@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import variables from '../Assets/variables';
 
 const Container = styled.div`
-  background-color: ${variables.grayDark};
+  
   padding-top: 30px;
   min-height: 100%;
 `;
@@ -41,12 +41,12 @@ const Form = styled.form`
   padding: 20px 40px;
 `;
 
-
 const InputBox = styled.div`
   > label {
     display: block;
     font-family: ${variables.secondaryFont}
     font-size: 24px;
+    margin-bottom: 3px;
   }
   > input {
     border: 1px solid ${variables.lightNavy};
@@ -54,6 +54,7 @@ const InputBox = styled.div`
     padding: 3px;
     font-family: ${variables.secondaryFont}
     font-size: 18px;
+    width: 100%;
     
   }
 `;
